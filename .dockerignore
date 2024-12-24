@@ -1,0 +1,44 @@
+# Ignore the node_modules directory as it's large and should be generated inside the container
+node_modules
+
+# Ignore the vendor directory as it should be generated inside the container by composer install
+vendor
+
+# Ignore environment-specific configuration files
+.env
+.env.*
+
+# Ignore version control files and directories
+.git
+.gitignore
+.gitattributes
+
+# Ignore IDE and editor configuration files
+*.idea
+*.vscode
+*.sublime*
+
+# Ignore Laravel specific storage and cache
+storage/*.key
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Ignore composer and npm lock files if you don't want them copied (optional)
+composer.lock
+package-lock.json
+yarn.lock
+
+# Ignore Docker-specific files
+Dockerfile
+docker-compose.yml
+
+# Ignore other temporary files and directories
+*.log
+*.swp
+*.tmp
+*.bak
+*.orig
+Thumbs.db
+.DS_Store
