@@ -20,6 +20,6 @@
         @endif
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        This is a home page.
+        This is a projects page.
     </body>
 </html>
